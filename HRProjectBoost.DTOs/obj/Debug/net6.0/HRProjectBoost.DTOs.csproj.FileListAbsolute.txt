@@ -1,0 +1,15 @@
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\bin\Debug\net6.0\HRProjectBoost.DTOs.deps.json
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\bin\Debug\net6.0\HRProjectBoost.DTOs.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\bin\Debug\net6.0\HRProjectBoost.DTOs.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\bin\Debug\net6.0\HRProjectBoost.Entities.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\bin\Debug\net6.0\HRProjectBoost.Entities.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.csproj.AssemblyReference.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.AssemblyInfoInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.AssemblyInfo.cs
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.csproj.CopyComplete
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\refint\HRProjectBoost.DTOs.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\HRProjectBoost.DTOs.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DTOs\obj\Debug\net6.0\ref\HRProjectBoost.DTOs.dll

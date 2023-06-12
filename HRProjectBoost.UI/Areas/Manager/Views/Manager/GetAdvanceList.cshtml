@@ -1,0 +1,84 @@
+﻿@using HRProjectBoost.Entities.Enums
+@model List<HRProjectBoost.DTOs.DTOs.Advance.AdvanceDto>
+@{
+    ViewData["Title"] = "GetAdvanceList";
+    Layout = "~/Areas/Manager/Views/Shared/_LayoutManager.cshtml";
+}
+
+<h1>GetAllowanceList</h1>
+<head>
+    <script src="~/sweetalert2/sweetalert2.min.js"></script>
+    <link href="~/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].AppUser.Name) @Html.DisplayNameFor(model => model[0].AppUser.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].AdvanceType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Total)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].CurrencyType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].AdvanceCreatedTime)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].AdvanceStatus)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model[0].Description)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AppUser.Name) @Html.DisplayFor(modelItem => item.AppUser.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvanceType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Total)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CurrencyType)@*Valuesu getirilecek*@
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvanceCreatedTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AdvanceStatus)@*Valuesu getirilecek*@
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)@*Valuesu getirilecek*@
+                    </td>
+                    <td>
+                        <span>@Html.ActionLink("Accept", "AcceptAdvance", new { Id = item.AdvanceId }, htmlAttributes: new { @class = "btn btn-success", @role = "button" }) </span>
+
+
+                        <span>@Html.ActionLink("Decline", "DeclineAdvance", new { Id = item.AdvanceId }, htmlAttributes: new { @class = "btn btn-danger", @role = "button" }) </span>
+                    </td>
+                </tr>
+
+            }
+
+        </tbody>
+    </table>
+</body>
+
+
+

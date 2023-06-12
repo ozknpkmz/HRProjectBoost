@@ -1,0 +1,66 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Personnel.PersonnelDetailsDTO
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Personnel/Views/Shared/_LayoutPersonnel.cshtml";
+}
+<section class="section profile">
+    <div class="card">
+        <div class="card-body pt-2 m-auto">
+            <div class="tab-content pt-2">
+                <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                    <h5 class="card-title">Profile Details</h5>
+                    <div class="row">
+                        <div class=" label">Phone Number:</div>
+                        <div class="">@Model.PhoneNumber</div>
+                    </div>
+
+                    <div class="row">
+                        <div class=" label">Email:</div>
+                        <div>@Model.Email</div>
+                    </div>
+                    <div class="row">
+                        <div class=" label">Birth Date:</div>
+                        <div>@Model.BirthDate</div>
+                    </div>
+                    <div class="row">
+                        <div class=" label">Birth City:</div>
+                        <div>@Model.BirthCity</div>
+                    </div>
+                    <div class="row">
+                        <div class=" label">Identity Number:</div>
+                        <div>@Model.IdentityNumber</div>
+                    </div>
+                    <div class="row">
+                        <div class=" label">Start Date:</div>
+                        <div>@Model.StartDate</div>
+                    </div>
+                    @if (Model.Status == HRProjectBoost.Entities.Enums.Status.Inactive)
+                    {
+                        <div class="row">
+                            <div class=" label">End Date:</div>
+                            <div>@Model.EndDate</div>
+                        </div>
+                    }
+                    <div class="row">
+                        <div class="label">Company Info:</div>
+                        <div>@Model.CompanyInfo</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Job:</div>
+                        <div>@Model.Job</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Department:</div>
+                        <div>@Model.Department</div>
+                    </div>
+                    <div class="row">
+                        <div class=" label">Address:</div>
+                        <div>@Model.Address</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

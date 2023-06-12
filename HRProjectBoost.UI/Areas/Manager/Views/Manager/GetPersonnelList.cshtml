@@ -1,0 +1,72 @@
+﻿@model IEnumerable<HRProjectBoost.DTOs.DTOs.Personnel.PersonnelDTO>
+
+@{
+    ViewData["Title"] = "GetPersonnelList";
+    Layout = "~/Areas/Manager/Views/Shared/_LayoutManager.cshtml";
+}
+
+<h1>Personnel List</h1>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProfilePicture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @if (item.ProfilePicture is not null)
+                {
+                    <td class="form-group">
+                        <img width="50" height="50" src="data:image/jpeg;base64,@Convert.ToBase64String(item.ProfilePicture)">
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name) @Html.DisplayFor(modelItem => item.SecondName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName) @Html.DisplayFor(modelItem => item.SecondLastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Department)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ },  htmlAttributes: new { @class = "btn btn-success", @role="button" }) |
+                    @Html.ActionLink("Details", "GetPersonelDetails", new { Email=item.Email  }, htmlAttributes: new { @class = "btn btn-primary", @role="button" }) |
+                    @Html.ActionLink("Delete", "DeletePersonel", new {  Email=item.Email  }, htmlAttributes: new { @class = "btn btn-danger", @role="button" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

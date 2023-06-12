@@ -1,0 +1,415 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.UI\\HRProjectBoost.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\HRProjectBoost.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\HRProjectBoost.Business.csproj",
+        "projectName": "HRProjectBoost.Business",
+        "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\HRProjectBoost.Business.csproj",
+        "packagesPath": "C:\\Users\\OZKAN-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OZKAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\HRProjectBoost.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\HRProjectBoost.DataAccess.csproj"
+              },
+              "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\HRProjectBoost.DTOs.csproj": {
+                "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\HRProjectBoost.DTOs.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\HRProjectBoost.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\HRProjectBoost.DataAccess.csproj",
+        "projectName": "HRProjectBoost.DataAccess",
+        "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\HRProjectBoost.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\OZKAN-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OZKAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj": {
+                "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\HRProjectBoost.DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\HRProjectBoost.DTOs.csproj",
+        "projectName": "HRProjectBoost.DTOs",
+        "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\HRProjectBoost.DTOs.csproj",
+        "packagesPath": "C:\\Users\\OZKAN-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OZKAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj": {
+                "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj",
+        "projectName": "HRProjectBoost.Entities",
+        "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\HRProjectBoost.Entities.csproj",
+        "packagesPath": "C:\\Users\\OZKAN-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OZKAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.UI\\HRProjectBoost.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.UI\\HRProjectBoost.UI.csproj",
+        "projectName": "HRProjectBoost.UI",
+        "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.UI\\HRProjectBoost.UI.csproj",
+        "packagesPath": "C:\\Users\\OZKAN-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OZKAN-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\HRProjectBoost.Business.csproj": {
+                "projectPath": "C:\\Users\\OZKAN-PC\\Desktop\\.NetCore6.0-HRProjectBoost-master\\HRProjectBoost.Business\\HRProjectBoost.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "toastr": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

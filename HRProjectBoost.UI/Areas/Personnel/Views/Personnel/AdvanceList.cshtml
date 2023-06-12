@@ -1,0 +1,37 @@
+﻿@model List<HRProjectBoost.DTOs.DTOs.Advance.AdvanceDto>
+@{
+    ViewData["Title"] = "AdvanceList";
+    Layout = "~/Areas/Personnel/Views/Shared/_LayoutPersonnel.cshtml";
+}
+
+<h1>My Advance List</h1>
+<a class="btn btn-outline-primary" type="button" asp-area="Personnel" asp-controller="Personnel" asp-action="CreateAdvance">Create New Advance</a>
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            <th>Advance No</th>
+            <th>Advance Total</th>
+            <th>Currency Type</th>
+            <th>Advance Type</th>
+            <th>Advance Status</th>
+            <th>Description</th>
+            <th>Created Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AdvanceId</td>
+                <td>@item.Total</td>
+                <td>@item.CurrencyType</td>
+                <td>@item.AdvanceType</td>
+                <td>@item.AdvanceStatus</td>
+                <td>@item.Description</td>
+                <td>@item.AdvanceCreatedTime</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

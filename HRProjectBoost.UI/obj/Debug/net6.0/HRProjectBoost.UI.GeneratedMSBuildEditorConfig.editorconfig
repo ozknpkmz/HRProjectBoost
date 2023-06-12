@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HRProjectBoost.UI
+build_property.RootNamespace = HRProjectBoost.UI
+build_property.ProjectDir = C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.UI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.UI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Admin/AddManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQWRkTWFuYWdlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Admin/CreateCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cQ3JlYXRlQ29tcGFueS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Admin/ListCompaniesAndManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cTGlzdENvbXBhbmllc0FuZE1hbmFnZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Shared/Components/_HeaderProfileInformationsAdmin/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlclByb2ZpbGVJbmZvcm1hdGlvbnNBZG1pblxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/CreatePersonnel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXENyZWF0ZVBlcnNvbm5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/GetAdvanceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEdldEFkdmFuY2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/GetAllowanceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEdldEFsbG93YW5jZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/GetPersonnelList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEdldFBlcnNvbm5lbExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/PersonnelDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXFBlcnNvbm5lbERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Manager/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Shared/Components/_HeaderProfileInformationsManager/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcQ29tcG9uZW50c1xfSGVhZGVyUHJvZmlsZUluZm9ybWF0aW9uc01hbmFnZXJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/AdvanceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxBZHZhbmNlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/CreateAdvance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxDcmVhdGVBZHZhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/CreateAllowance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxDcmVhdGVBbGxvd2FuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/PersonnelDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxQZXJzb25uZWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Personnel/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFBlcnNvbm5lbFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Shared/Components/_HeaderProfileInformationsPersonnal/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXF9IZWFkZXJQcm9maWxlSW5mb3JtYXRpb25zUGVyc29ubmFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Home/ErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Shared/Components/_HeaderProfileInformations/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlclByb2ZpbGVJbmZvcm1hdGlvbnNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-hiqzgl75d9
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Manager/Views/Shared/_LayoutManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTaGFyZWRcX0xheW91dE1hbmFnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ddlxt20kil
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Areas/Personnel/Views/Shared/_LayoutPersonnel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGVyc29ubmVsXFZpZXdzXFNoYXJlZFxfTGF5b3V0UGVyc29ubmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-mu8y1ovpsj
+
+[C:/Users/OZKAN-PC/Desktop/.NetCore6.0-HRProjectBoost-master/HRProjectBoost.UI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nernqdh8ml

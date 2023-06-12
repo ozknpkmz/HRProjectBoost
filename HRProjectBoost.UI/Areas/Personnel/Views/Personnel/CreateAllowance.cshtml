@@ -1,0 +1,49 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Allowance.AllowanceCreateDto
+@{
+    ViewData["Title"] = "CreateAllowance";
+    Layout = "~/Areas/Personnel/Views/Shared/_LayoutPersonnel.cshtml";
+}
+
+<h1>Create Allowance</h1>
+
+<div class="row">
+    <form asp-area="Personnel" asp-controller="Personnel" asp-action="CreateAllowance" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <div class="col-md-4">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <select asp-for="AllowanceType" class="form-select" aria-label="Default select example">
+                    <option selected>Select your allowance type</option>
+                    <option value="1">Accommodation</option>
+                    <option value="2">Food</option>
+                    <option value="3">Travel</option>
+                </select>
+                <br />
+                <div class="form-group">
+                    <label asp-for="Total" class="control-label"></label>
+                    <input asp-for="Total" class="form-control" type="number" />
+                    <span asp-validation-for="Total" class="text-danger"></span>
+                </div>
+                <br />
+                <select asp-for="CurrencyType" class="form-select" aria-label="Default select example">
+                    <option selected>Select your currency type</option>
+                    <option value="1">TRY</option>
+                    <option value="2">USD</option>
+                    <option value="3">EUR</option>
+                </select>
+                <br />
+                <div class="form-group">
+                    <label asp-for="Path" class="control-label"></label>
+                    <input type="text" asp-for="Path" class="form-control" />
+                    <span asp-validation-for="Path" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AllowanceFile" class="control-label"></label>
+                    <input type="file" asp-for="AllowanceFile" class="form-control" />
+                    <span asp-validation-for="AllowanceFile" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-primary" type="submit">Create Allowance</button>
+    </form>
+</div>
+

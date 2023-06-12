@@ -1,0 +1,12 @@
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\bin\Debug\net6.0\HRProjectBoost.Entities.deps.json
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\bin\Debug\net6.0\HRProjectBoost.Entities.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\bin\Debug\net6.0\HRProjectBoost.Entities.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.csproj.AssemblyReference.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.AssemblyInfoInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.AssemblyInfo.cs
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.csproj.CoreCompileInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\refint\HRProjectBoost.Entities.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\HRProjectBoost.Entities.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.Entities\obj\Debug\net6.0\ref\HRProjectBoost.Entities.dll

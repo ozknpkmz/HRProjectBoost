@@ -1,0 +1,77 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Admin.CompanyCreateDto
+
+@{
+    ViewData["Title"] = "CreateCompany";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Create Company</h1>
+<hr />
+<div class="row">
+    <form enctype="multipart/form-data" asp-area="Admin" asp-controller="Admin" asp-action="CreateCompany" method="post">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CompanyName" class="control-label"></label>
+                    <input asp-for="CompanyName" class="form-control" />
+                    <span asp-validation-for="CompanyName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CompanyTitle" class="control-label"></label>
+                    <input asp-for="CompanyTitle" class="form-control" />
+                    <span asp-validation-for="CompanyTitle" class="text-danger" hidden></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MersisNo" class="control-label"></label>
+                    <input asp-for="MersisNo" class="form-control" />
+                    <span asp-validation-for="MersisNo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Logo" class="control-label"></label>
+                    <input type="file" asp-for="Logo" class="form-control" />
+                    <span asp-validation-for="Logo" class="text-danger"></span>
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="CompanyAddress" class="control-label"></label>
+                    <input asp-for="CompanyAddress" class="form-control" />
+                    <span asp-validation-for="CompanyAddress" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CompanyPhoneNumber" class="control-label"></label>
+                    <input asp-for="CompanyPhoneNumber" class="form-control" />
+                    <span asp-validation-for="CompanyPhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EstablishDate" class="control-label"></label>
+                    <input asp-for="EstablishDate" class="form-control" />
+                    <span asp-validation-for="EstablishDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TaxNo" class="control-label"></label>
+                    <input asp-for="TaxNo" class="form-control" />
+                    <span asp-validation-for="TaxNo" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="TaxAdministration" class="control-label"></label>
+                    <input asp-for="TaxAdministration" class="form-control" />
+                    <span asp-validation-for="TaxAdministration" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

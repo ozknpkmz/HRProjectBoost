@@ -1,0 +1,17 @@
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.DataAccess.deps.json
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.DataAccess.runtimeconfig.json
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.DataAccess.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.DataAccess.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.Entities.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\bin\Debug\net6.0\HRProjectBoost.Entities.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.csproj.AssemblyReference.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.AssemblyInfoInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.AssemblyInfo.cs
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.csproj.CopyComplete
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\refint\HRProjectBoost.DataAccess.dll
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.pdb
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\HRProjectBoost.DataAccess.genruntimeconfig.cache
+C:\Users\OZKAN-PC\Desktop\.NetCore6.0-HRProjectBoost-master\HRProjectBoost.DataAccess\obj\Debug\net6.0\ref\HRProjectBoost.DataAccess.dll

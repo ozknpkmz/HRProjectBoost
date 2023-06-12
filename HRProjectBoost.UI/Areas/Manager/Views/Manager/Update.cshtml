@@ -1,0 +1,52 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Manager.ManagerUpdateDto
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Manager/Views/Shared/_LayoutManager.cshtml";
+}
+
+
+<div class="card">
+    <div class="card-body pt-3">
+        <div class="col-xs-1" align="center">
+            <div class="tab-content pt-2 ">
+                <h1>Update</h1>
+                <div class="col-md-4">
+                    <form asp-area="Manager" asp-controller="Manager" asp-action="Update" enctype="multipart/form-data" method="post">
+                        <div class="form-group">
+                            <input type="hidden" asp-for="UserName" class="form-control" value="@Model.UserName" />
+                        </div>
+                        @if (Model.ProfilePicture is not null)
+                        {
+                            <div class="form-group">
+                                <img width="150" height="150" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.ProfilePicture)">
+                            </div>
+                        }
+                        <div class="form-group">
+                            <label asp-for="ProfilePicture" class="control-label"></label>
+                            <input type="file" asp-for="ProfilePicture" class="form-control" />
+                            <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label"></label>
+                            <input type="text" asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="PhoneNumber" class="control-label"></label>
+                            <input type="text" asp-for="PhoneNumber" class="form-control" placeholder="0(***)-***-**-**" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

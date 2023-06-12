@@ -1,0 +1,42 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Advance.AdvanceCreateDto
+@{
+    ViewData["Title"] = "GetAdvance";
+    Layout = "~/Areas/Personnel/Views/Shared/_LayoutPersonnel.cshtml";
+}
+
+<h1>Create Advance</h1>
+<div class="row">
+    <form asp-area="Personnel" asp-controller="Personnel" asp-action="CreateAdvance" method="post">
+        <div class="row">
+            <div class="col-md-4">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <select asp-for="AdvanceType" class="form-select" aria-label="Default select example">
+                    <option selected>Select your allowance type</option>
+                    <option value="1">Corporate</option>
+                    <option value="2">Individiual</option>
+                </select>
+                <br />
+                <div class="form-group">
+                    <label asp-for="Total" class="control-label"></label>
+                    <input asp-for="Total" class="form-control" type="number" />
+                    <span asp-validation-for="Total" class="text-danger"></span>
+                </div>
+                <br />
+                <select asp-for="CurrencyType" class="form-select" aria-label="Default select example">
+                    <option selected>Select your currency type</option>
+                    <option value="1">TRY</option>
+                    <option value="2">USD</option>
+                    <option value="3">EUR</option>
+                </select>
+                <br />
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <textarea cols="5" rows="15" asp-for="Description" class="form-control"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-primary" type="submit">Create Advance</button>
+    </form>
+</div>
+

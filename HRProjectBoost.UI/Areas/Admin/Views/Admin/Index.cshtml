@@ -1,0 +1,78 @@
+﻿@model HRProjectBoost.DTOs.DTOs.Manager.ManagerDto
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-4">
+            <div class="card">
+                <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.ProfilePicture)" alt="ProfilePicture" class="rounded-circle" onerror="this.onerror=null; this.src='/de7834s-6515bd40-8b2c-4dc6-a843-5ac1a95a8b55.jpg'">
+                    <h2>
+                        @Model.Name @if (Model.SecondName != null)
+                        {
+                            @Model.SecondName
+                        }
+                        @Model.LastName @if (Model.SecondLastName != null)
+                        {
+                            @Model.SecondLastName
+                        }
+                    </h2>
+                    <h3>@Model.Job</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
+            <div class="card">
+                <div class="card-body pt-3">
+                    <div class="tab-content pt-2">
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                            <h5 class="card-title">Profile Overview</h5>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label ">Full Name</div>
+                                <div class="col-lg-9 col-md-8">
+                                    @Model.Name @if (Model.SecondName != null)
+                                    {
+                                        @Model.SecondName
+                                    } @Model.LastName @if (Model.SecondLastName != null)
+                                    {
+                                        @Model.SecondLastName
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Job</div>
+                                <div class="col-lg-9 col-md-8">@Model.Job</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Email</div>
+                                <div class="col-lg-9 col-md-8">@Model.Email</div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Address</div>
+                                <div class="col-lg-9 col-md-8">@Model.Address</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Phone</div>
+                                <div class="col-lg-9 col-md-8">@Model.PhoneNumber</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Department</div>
+                                <div class="col-lg-9 col-md-8">@Model.Department</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,57 @@
+﻿@using HRProjectBoost.Entities.Enums
+@model List<HRProjectBoost.DTOs.DTOs.Admin.CompanyDto>
+@{
+    ViewData["Title"] = "ListCompaniesAndManagers";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card" style="width: 22rem;">
+                <img src="data:image/jpeg;base64,@Convert.ToBase64String(item.Logo)" alt="Logo" class="card-img-top" width="180" height="150">
+                <div class="card-body">
+                    <h5 class="card-title">@item.CompanyName</h5>
+                    <p class="card-text">Establish Date: @item.EstablishDate, Aggrement End Date: @item.AgreementEndDate</p>
+                    <div class="row">
+                        <button type="button" class="btn btn-primary col-md-4" data-toggle="modal" data-target="#@item.CompanyName">
+                            Show Managers
+                        </button>
+                        <form class="col-md-4" asp-controller="admin" asp-action="AddManager" method="get">
+                            <input type="hidden" name="MersisNo" value="@item.MersisNo">
+                            <button  type="submit" class="btn btn-warning ">Add Manager</button>
+                        </form>
+                        <form class="col-md-4" asp-controller="admin" asp-action="DeleteCompany" method="post">
+                            <input type="hidden" name="MersisNo" value="@item.MersisNo">
+                            <button  type="submit" class="btn btn-danger ">Delete Company</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="@item.CompanyName" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        @foreach (var managers in item.Managers)
+                        {
+                            <p>Manager: @managers.Name @managers.LastName</p> 
+                        }
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
